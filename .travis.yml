@@ -9,7 +9,7 @@ before_install:
   
 
 script:
-  - docker run -e CI=true engldv01/docker-react npm run testo
+  - docker run -e CI=true engldv01/docker-react npm run test
 
 deploy:
   provider: elasticbeanstalk
